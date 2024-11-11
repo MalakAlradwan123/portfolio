@@ -1,0 +1,90 @@
+:root {
+    --bg-color: white;
+    --text-color: #663153;
+}
+
+/* * {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+} */
+
+.text-shadow {
+    color: white;
+    text-shadow:
+        0 0 5px var(--text-color), 0 0 10px var(--text-color), 0 0 15px var(--text-color), 0 0 20px var(--text-color);
+
+}
+
+ul {
+    list-style: none;
+    text-align: left;
+}
+
+.navbar {
+    position: absolute;
+    z-index: 3;
+    background-color: white;
+}
+
+.navbar .container {
+    border-bottom: var(--text-color) solid 1px;
+
+}
+
+.navbar .container a {
+    color: var(--text-color);
+}
+
+.navbar-toggler:hover+.navbar-collapse {
+    display: block;
+}
+
+
+/* land */
+.land {
+    /* background-color: #663153; */
+    background-color: var(--bg-color)
+}
+
+.land .container-fluid .content p {
+    color: var(--text-color);
+}
+
+/* about... */
+
+.about {
+    background-color: var(--bg-color);
+}
+
+.col1 p,
+.col2 ul li {
+    color: #616161;
+
+}
+
+/* portfolio */
+.portfolio .col {
+    transition: 0.5s;
+}
+
+.portfolio .col:hover {
+    transform: scale(1.1);
+}
+
+/* contact */
+.border {
+    box-shadow: 0 0 10px #c5c5c5
+}
+
+.btn {
+    background-color: var(--text-color);
+    color: white;
+}
+
+.btn:hover {
+    color: #c5c5c5
+}
